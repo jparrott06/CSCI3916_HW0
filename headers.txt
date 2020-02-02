@@ -1,20 +1,65 @@
- "headers": {
-    "expires": "Sun, 02 Feb 2020 01:07:56 GMT", //Gives the date/time after which the response is considered stale
-    "date": "Sun, 02 Feb 2020 01:07:56 GMT", //The date and time that the message was sent
-    "cache-control": "private, max-age=0, must-revalidate, no-transform", //Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds
-    "etag": "\"iPPser6Mov75mJUb_EktR4oB1SI/Qb03XEGD2dEK8wok6ARqrR01Qtg\"", //An identifier for a specific version of a resource, often a message digest
-    "vary": "Origin, X-Origin", //Tells downstream proxies how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one from the origin server.
+ "headers": { //response header
+    "expires": "Sun, 02 Feb 2020 01:07:56 GMT",
+    //Gives the date/time after which the response is considered stale. My response's time is Sun, 02 Feb 2020 01:07:56 GMT
+
+    "date": "Sun, 02 Feb 2020 01:07:56 GMT",
+    //The date and time that the message was sent. Mine was sent at Sun, 02 Feb 2020 01:07:56 GMT
+
+    "cache-control": "private, max-age=0, must-revalidate, no-transform",
+    //Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds.
+    //private: Indicates that all or part of the response message is intended for a single user and MUST NOT be cached by a shared cache, such as a proxy server.
+    //max-age: this sets a relative expiration time (in seconds) from the time the response is generated. Mine is at 0 sec.
+    //must-revalidate means the cache must revalidate with the server to check if the document has changed
+    //no transform indicates to not retrieve new data. This being the case, the server wishes the client to obtain a response only once and then cache.
+
+    "etag": "\"iPPser6Mov75mJUb_EktR4oB1SI/Qb03XEGD2dEK8wok6ARqrR01Qtg\"",
+    //An identifier for a specific version of a resource, often a message digest
+    //when a URL is retrieved, the Web server will return the resource's current representation along with its corresponding ETag value
+    //"iPPser6Mov75mJUb_EktR4oB1SI/Qb03XEGD2dEK8wok6ARqrR01Qtg\" is my etag value for this request
+
+    "vary": "Origin, X-Origin",
+    //Tells downstream proxies how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one from the origin server.
+    //Basically indicates where a fetch originates from.
+    //Origin means when a user agent receives a response to a non-CORS request for that resource (for example, as the result of a navigation request), the response will lack `Access-Control-Allow-Origin` and the user agent will cache that response.
+
     "content-type": "application/json; charset=UTF-8",
+    //designates the content to be in JSON format, encoded in the UTF-8 character encoding. Designating the encoding is somewhat redundant for JSON, since the default encoding for JSON is UTF-8.
+
     "x-content-type-options": "nosniff",
+    //X-Content-Type-Options response HTTP header is a marker used by the server to indicate that the MIME types advertised in the Content-Type headers should not be changed and be followed.
+    //nosniff nosniff instructs browsers to disable content or MIME sniffing which is used to override response Content-Type headers to guess and process the data using an implicit content type.
+
     "x-frame-options": "SAMEORIGIN",
+    //x-frame-options is used to prevent the site from clickjacking attacks. It defines whether or not a browser should be allowed to render a page in a <frame>, <iframe>, <embed> or <object>.
+    //SAMEORIGIN allows the page to be rendered in the frame if and only if frame has the same origin as the page.
+
     "x-xss-protection": "1; mode=block",
+    //X-XSS-Protection: 1; mode=block enables the XSS Filter.
+    //Rather than sanitize the page, when a XSS attack is detected, the browser will prevent rendering of the page.
+
     "content-length": "39976",
+    //content-length header is a number denoting an the exact byte length of the HTTP body
+    //Mine has 39976 bytes
+
     "server": "GSE",
+    //server denotes a name for the server
+    //GSE denotes Google web server (Google Servlet Engine)
+
     "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000",
+    //alt-avc header (meaning Alternative Services) is used to indicate that its resources can also be accessed at a different network location (host or port) or using a different protocol
+    //The keys are the alternative protocol/host/port combinations that can be used
+
     "connection": "close"
+    //connection header controls whether or not the network connection stays open after the current transaction finishes.
+    //Mine (and the default) is set to 'close', indicating to close the connection, instead of 'keep-alive'.
   },
-  "requestHeader": { //this is a test comment
-    "Accept": "application/json, text/plain, */*", //Media type(s) that is/are acceptable for the response. This example shows we accept json, plain text, and */* means any font size or formatting
+  "requestHeader": { //request header
+    "Accept": "application/json, text/plain, */*",
+    //Media type(s) that is/are acceptable for the response.
+    //This example shows we accept json, plain text, and */* means any font size or formatting
+
     "User-Agent": "axios/0.18.0"
+    //user-agent is a request header that allows a characteristic string that allows network protocol peers to identify the Operating System and Browser of the web-server.
+    //My operating System and browser of the web-server is axios/0.18.0, axios being the name and 0.18.0 being its version
   }
 }
