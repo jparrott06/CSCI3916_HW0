@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25b37238-3318-4ac6-9c35-08958924e33f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Week01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Week01.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/googlebooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/googlebooks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +81,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Mocha.Test Unit Tests" />
+      <item itemvalue="HTTP Request.All in http-requests-log" />
       <item itemvalue="Node.js.Google Books" />
       <item itemvalue="npm.test" />
-      <item itemvalue="HTTP Request.All in http-requests-log" />
+      <item itemvalue="Mocha.Test Unit Tests" />
     </list>
     <recent_temporary>
       <list>
