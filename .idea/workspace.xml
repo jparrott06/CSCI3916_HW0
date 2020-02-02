@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25b37238-3318-4ac6-9c35-08958924e33f" name="Default Changelist" comment="" />
+    <list default="true" id="25b37238-3318-4ac6-9c35-08958924e33f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Week01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Week01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/googlebooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/googlebooks.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,8 +30,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectId" id="1X5i1xUOtVPuNfFDhvpzpou42BR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1XEHMMMucXjVEcEvc8P75QKPydI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,7 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.14.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -42,7 +48,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -50,10 +56,10 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.Google Books">
-    <configuration name="Google Books" type="NodeJSConfigurationType" application-parameters="books --phrase &quot;turing&quot;" path-to-js-file="$PROJECT_DIR$/../CSCI3916_HW0/index.js" working-dir="$PROJECT_DIR$/../CSCI3916_HW0">
+    <configuration name="All in http-requests-log" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http">
       <method v="2" />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../CSCI3916_HW0/index.js" working-dir="$PROJECT_DIR$/../CSCI3916_HW0">
+    <configuration name="Google Books" type="NodeJSConfigurationType" application-parameters="books --phrase &quot;turing&quot;" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -82,12 +88,12 @@
     <list>
       <item itemvalue="Mocha.Test Unit Tests" />
       <item itemvalue="Node.js.Google Books" />
-      <item itemvalue="Node.js.index.js" />
       <item itemvalue="npm.test" />
+      <item itemvalue="HTTP Request.All in http-requests-log" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="HTTP Request.All in http-requests-log" />
         <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
@@ -109,8 +115,7 @@
       <workItem from="1546700612439" duration="3825000" />
       <workItem from="1548092679893" duration="241000" />
       <workItem from="1548093242743" duration="143000" />
-      <workItem from="1580342147965" duration="118000" />
-      <workItem from="1580342280105" duration="3058000" />
+      <workItem from="1580604286005" duration="2629000" />
     </task>
     <servers />
   </component>
@@ -118,40 +123,32 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580347333057">
+    <state width="1515" height="209" key="GridCell.Tab.0.bottom" timestamp="1580606037127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1580347333057" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1580342250349">
+    <state width="1515" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580606037127" />
+    <state width="1515" height="209" key="GridCell.Tab.0.center" timestamp="1580606037127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580342250349" />
-    <state width="1500" height="252" key="GridCell.Tab.0.bottom" timestamp="1580347390741">
+    <state width="1515" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580606037127" />
+    <state width="1515" height="209" key="GridCell.Tab.0.left" timestamp="1580606037127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580347390741" />
-    <state width="1500" height="252" key="GridCell.Tab.0.center" timestamp="1580347390741">
+    <state width="1515" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580606037127" />
+    <state width="1515" height="209" key="GridCell.Tab.0.right" timestamp="1580606037127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="252" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580347390741" />
-    <state width="1500" height="252" key="GridCell.Tab.0.left" timestamp="1580347390741">
+    <state width="1515" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580606037127" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580605537512">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="252" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580347390741" />
-    <state width="1500" height="252" key="GridCell.Tab.0.right" timestamp="1580347390741">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1500" height="252" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580347390741" />
-    <state x="277" y="56" key="SettingsEditor" timestamp="1580342195963">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580342195963" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580605537512" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../CSCI3916_HW0/test/googlebookswithfake.js</url>
+          <url>file://$PROJECT_DIR$/test/googlebookswithfake.js</url>
           <line>25</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
